@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Mylyn Tasks Data Source ODA Tests
+Bundle-SymbolicName: com.allium.mylyn.oda.test
+Bundle-Version: 0.0.1.qualifier
+Bundle-Vendor: ALLIUM
+Fragment-Host: com.allium.mylyn.oda.ui;bundle-version="0.0.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.junit,
+ org.eclipse.equinox.security;bundle-version="1.2.0"
+Bundle-ClassPath: .,
+ lib/fest-assert-core.jar,
+ lib/fest-test.jar,
+ lib/fest-util.jar,
+ lib/mockito-all.jar

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.allium.mylyn.oda.feature_0.0.1.qualifier.jar" id="com.allium.mylyn.oda.feature" version="0.0.1.qualifier">
+      <category name="com.allium.mylyn.oda"/>
+   </feature>
+   <category-def name="com.allium.mylyn.oda" label="Mylyn Tasks Data Source ODA Driver">
+      <description>
+         An ODA Driver for Using Mylyn Tasks as ODA Data Source. Very useful for using Mylyn tasks and data for BIRT reporting.
+      </description>
+   </category-def>
+</site>

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: com.allium.mylyn.oda.ui;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Bundle-Activator: com.allium.mylyn.oda.ui.Activator
+Bundle-Vendor: ALLIUM
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.datatools.connectivity.oda.design.ui;bundle-version="[3.2.0,4.0.0)",
+ com.allium.mylyn.oda,
+ org.eclipse.mylyn.tasks.ui,
+ org.eclipse.mylyn.commons.workbench,
+ org.eclipse.mylyn.tasks.core
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
